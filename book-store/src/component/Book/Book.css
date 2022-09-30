@@ -1,0 +1,37 @@
+.card {
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    box-shadow: 5px 5px 10px #ccc;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card  > img {
+    width: 100%;
+    height: 50%;
+}
+
+.card h3 {
+    margin: 0;
+    padding: 5px;
+}
+
+.card p{
+    margin: 0;
+    padding: 3px;
+}
+
+.card h2 {
+    margin: 0;
+}
+
+.card article {
+    padding: 3px;
+}
+
+.card h3 {
+    padding: 4px;
+}

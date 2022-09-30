@@ -11,7 +11,7 @@ const getAllBooks = async (req,res,next) => {
     if(!books){
         return res.status(404).json({ message: "No products found"})
     }
-    return res.status(200).json({books});
+    return res.status(200).json({books : books});
 }
 
 const addBook = async (req,res,next) => {
