@@ -3,7 +3,7 @@ import "./Books.css";
 import axios from 'axios';
 import Book from './Book/Book';
 
-const URL = "http://localhost:5000/books";
+const URL = "";
 
 
 const fetchHandler = async () => {
